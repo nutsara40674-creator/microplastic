@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Offline Reading Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1 id="title">Offline Reading Quiz</h1>
+    <p class="sub">Single-user practice • Random questions • Timer • Review</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card" id="setup">
+      <h2>Start</h2>
+      <div class="grid">
+        <label>
+          Number of questions
+          <select id="numQ">
+            <option value="5">5</option>
+            <option value="8">8</option>
+            <option value="10" selected>10</option>
+            <option value="999">All</option>
+          </select>
+        </label>
+        <label>
+          Time limit (minutes)
+          <select id="minutes">
+            <option value="0">No timer</option>
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+        </label>
+        <label class="chk">
+          <input type="checkbox" id="showPassage" checked />
+          Show passage while answering
+        </label>
+      </div>
+      <button class="btn" id="startBtn">Start quiz</button>
+      <p class="hint">Tip: Open this folder and double-click <b>index.html</b> (no internet needed).</p>
+    </section>
+
+    <section class="card" id="passageCard" hidden>
+      <div class="row">
+        <h2>Passage</h2>
+        <button class="btn ghost" id="togglePassageBtn">Hide passage</button>
+      </div>
+      <h3 id="passageTitle"></h3>
+      <div id="passageText" class="passage"></div>
+    </section>
+
+    <section class="card" id="quiz" hidden>
+      <div class="row">
+        <h2>Quiz</h2>
+        <div class="timer" id="timer" aria-live="polite"></div>
+      </div>
+      <div id="qArea"></div>
+      <div class="row">
+        <button class="btn ghost" id="prevBtn">Prev</button>
+        <button class="btn" id="nextBtn">Next</button>
+        <button class="btn danger" id="submitBtn">Submit</button>
+      </div>
+      <p class="hint">You can submit anytime. Your answers are saved in this browser only.</p>
+    </section>
+
+    <section class="card" id="result" hidden>
+      <h2>Result</h2>
+      <p id="scoreLine" class="score"></p>
+      <div class="row">
+        <button class="btn" id="reviewBtn">Review answers</button>
+        <button class="btn ghost" id="restartBtn">Restart</button>
+      </div>
+      <div id="review" class="review" hidden></div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <small>Made for offline practice • You can replace questions.json with your own sets.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

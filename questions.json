@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Reading Practice: Microplastic Pollution in Marine Ecosystems",
+    "version": "1.0",
+    "created": "2026-02-24",
+    "note": "Offline single-user practice site (randomized quiz + timer + scoring + review)."
+  },
+  "passage": {
+    "title_en": "Microplastic Pollution in Marine Ecosystems",
+    "title_th": "มลพิษจากไมโครพลาสติกในระบบนิเวศทางทะเล",
+    "paragraphs": [
+      "In recent decades, microplastic pollution has emerged as a major environmental concern affecting marine ecosystems worldwide. Microplastics are tiny plastic particles, often less than five millimeters in size, that originate from the breakdown of larger plastic debris or are manufactured intentionally for industrial use. Each year, millions of tons of plastic waste enter the oceans through land-based sources, fishing activities, and inadequate waste management systems.",
+      "Once in the marine environment, microplastics pose serious risks to ocean life. Small marine organisms often mistake these particles for food, allowing plastics to enter the food chain. As larger animals consume smaller contaminated species, microplastics accumulate in their bodies, potentially causing health problems such as reduced growth, reproductive issues, and internal injuries. Scientists have raised concerns that these particles may also carry harmful chemicals or toxins that further threaten marine biodiversity.",
+      "Human activities play a significant role in the spread of microplastic pollution. Single-use plastics, discarded fishing gear, and industrial waste contribute heavily to ocean debris. In particular, the fishing industry is a major source of plastic waste, including nets and ropes that break down into microplastics over time. Studies estimate that approximately eight million tons of plastic enter the oceans annually, highlighting the scale of the problem.",
+      "To address microplastic pollution, governments and environmental organizations have proposed several solutions. These include reducing the use of single-use plastics, improving recycling systems, and increasing public awareness about responsible consumption. Additionally, policies aimed at regulating plastic production and waste disposal may help limit future pollution. Without coordinated global action, microplastic pollution is likely to continue threatening marine ecosystems for generations to come."
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "skill": "Vocabulary",
+      "prompt": "The word \"debris\" in paragraph 1 is closest in meaning to",
+      "choices": {
+        "A": "waste",
+        "B": "organism",
+        "C": "chemical",
+        "D": "liquid"
+      },
+      "answer": "A",
+      "explanation": "\"Debris\" in this context means leftover waste/garbage in the environment."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "skill": "Detail",
+      "prompt": "According to the passage, microplastics affect marine animals mainly by",
+      "choices": {
+        "A": "increasing water temperature",
+        "B": "entering the food chain",
+        "C": "reducing oxygen levels",
+        "D": "changing ocean currents"
+      },
+      "answer": "B",
+      "explanation": "Small organisms eat microplastics by mistake; then bigger animals eat them, so plastics move through the food chain."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "skill": "Detail (NOT mentioned)",
+      "prompt": "Which of the following is NOT mentioned as a source of microplastic pollution?",
+      "choices": {
+        "A": "Fishing industry",
+        "B": "Single-use plastic",
+        "C": "Industrial chemicals",
+        "D": "Land-based waste"
+      },
+      "answer": "C",
+      "explanation": "The passage mentions single-use plastics, fishing activities/gear, and land-based sources, but not industrial chemicals directly."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "skill": "Purpose of detail",
+      "prompt": "The author mentions “8 million tons” primarily to",
+      "choices": {
+        "A": "criticize governments",
+        "B": "emphasize the scale of the problem",
+        "C": "compare countries",
+        "D": "explain recycling processes"
+      },
+      "answer": "B",
+      "explanation": "The number highlights how large/serious the problem is."
+    },
+    {
+      "id": 5,
+      "type": "mcq",
+      "skill": "Vocabulary",
+      "prompt": "The word \"marine\" is closest in meaning to",
+      "choices": {
+        "A": "coastal",
+        "B": "underwater",
+        "C": "ocean-related",
+        "D": "biological"
+      },
+      "answer": "C",
+      "explanation": "\"Marine\" means related to the sea/ocean."
+    },
+    {
+      "id": 6,
+      "type": "classify",
+      "skill": "Categorization",
+      "prompt": "Classify the items into Pollution Causes (3) and Solutions (2).",
+      "items": [
+        "Fishing gear",
+        "Recycling programs",
+        "Public awareness",
+        "Single-use plastics",
+        "Land-based waste"
+      ],
+      "buckets": [
+        "Pollution Causes",
+        "Solutions"
+      ],
+      "answer": {
+        "Pollution Causes": [
+          "Fishing gear",
+          "Single-use plastics",
+          "Land-based waste"
+        ],
+        "Solutions": [
+          "Recycling programs",
+          "Public awareness"
+        ]
+      },
+      "explanation": "Causes create pollution; solutions reduce or prevent it."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "skill": "Inference",
+      "prompt": "What can be inferred about microplastics from the passage?",
+      "choices": {
+        "A": "They dissolve quickly in water",
+        "B": "They are harmless to large animals",
+        "C": "They persist in the environment",
+        "D": "They are easily removed"
+      },
+      "answer": "C",
+      "explanation": "Because they accumulate in bodies/food chains, they don’t break down quickly—so they persist."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "skill": "Reference",
+      "prompt": "The word \"they\" in paragraph 3 refers to",
+      "choices": {
+        "A": "marine animals",
+        "B": "scientists",
+        "C": "microplastics",
+        "D": "fishing industries"
+      },
+      "answer": "C",
+      "explanation": "\"They\" points back to the main noun being discussed: microplastics."
+    },
+    {
+      "id": 10,
+      "type": "insertion",
+      "skill": "Sentence insertion (logic)",
+      "prompt": "Where would the sentence best fit?\n“Consequently, many species suffer long-term health effects.”",
+      "options": [
+        "After: \"Small marine organisms often mistake these particles for food, allowing plastics to enter the food chain.\"",
+        "After: \"As larger animals consume smaller contaminated species, microplastics accumulate in their bodies, potentially causing health problems such as reduced growth, reproductive issues, and internal injuries.\"",
+        "After: \"Scientists have raised concerns that these particles may also carry harmful chemicals or toxins that further threaten marine biodiversity.\"",
+        "At the very end of paragraph 2."
+      ],
+      "answer": 2,
+      "explanation": "\"Consequently\" signals a result, so it fits best right after the sentence describing accumulation and health problems."
+    },
+    {
+      "id": 11,
+      "type": "short",
+      "skill": "Summary",
+      "prompt": "Write THREE statements that best summarize the passage (3 key ideas).",
+      "answer_guidance": [
+        "Sources/origins of microplastics (e.g., breakdown of plastics, fishing, land-based waste).",
+        "Impacts on marine life and the food chain (accumulation, health problems, toxins).",
+        "Solutions/actions (reduce single-use plastics, improve recycling, policies, awareness)."
+      ],
+      "explanation": "A good summary focuses on the main ideas, not small details."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "skill": "Main purpose",
+      "prompt": "The main purpose of the passage is to",
+      "choices": {
+        "A": "describe ocean currents",
+        "B": "explain plastic production",
+        "C": "discuss causes and impacts of microplastic pollution",
+        "D": "promote marine tourism"
+      },
+      "answer": "C",
+      "explanation": "The passage explains what microplastics are, their causes, impacts, and solutions."
+    }
+  ]
+}

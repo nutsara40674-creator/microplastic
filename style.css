@@ -1,0 +1,34 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1020;color:#eef1ff}
+.wrap{max-width:980px;margin:0 auto;padding:18px}
+header h1{margin:10px 0 6px;font-size:28px}
+.sub{margin:0;color:#b8c0ff}
+.card{background:#121a33;border:1px solid #24305d;border-radius:16px;padding:16px;margin:14px 0;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+h2{margin:0 0 12px;font-size:20px}
+h3{margin:10px 0 8px;font-size:16px;color:#d7dcff}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:end}
+label{display:block;font-size:14px;color:#d7dcff}
+select{width:100%;padding:10px;border-radius:10px;border:1px solid #2a376b;background:#0e1530;color:#eef1ff}
+.chk{display:flex;gap:10px;align-items:center;margin-top:6px}
+.btn{padding:10px 14px;border-radius:12px;border:1px solid #3b4aa1;background:#2b39a5;color:#fff;cursor:pointer;font-weight:600}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:transparent;border-color:#4454b4;color:#cfd6ff}
+.btn.danger{background:#b3261e;border-color:#ff6f61}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hint{color:#aab3ff;font-size:13px;margin:10px 0 0}
+.passage{line-height:1.7;color:#e7eaff}
+.passage p{margin:0 0 10px}
+.timer{padding:8px 12px;border-radius:999px;border:1px solid #33418d;color:#e7eaff;background:#0e1530;font-variant-numeric:tabular-nums}
+.qcard{border:1px solid #27336a;border-radius:14px;padding:14px;margin:10px 0;background:#0e1530}
+.qmeta{display:flex;gap:8px;flex-wrap:wrap;color:#aab3ff;font-size:12px;margin-bottom:8px}
+.badge{padding:3px 8px;border-radius:999px;border:1px solid #33418d}
+.qprompt{margin:0 0 10px;font-size:16px}
+.choices{display:grid;gap:8px}
+.choice{display:flex;gap:10px;align-items:flex-start;padding:10px;border-radius:12px;border:1px solid #2a376b;background:#0b1020;cursor:pointer}
+.choice input{margin-top:3px}
+textarea{width:100%;min-height:120px;padding:10px;border-radius:12px;border:1px solid #2a376b;background:#0b1020;color:#eef1ff;line-height:1.6}
+.score{font-size:18px;margin:0 0 10px}
+.review .qcard{background:#0b1020}
+.ok{border-color:#2ecc71 !important}
+.no{border-color:#ff6f61 !important}
+.foot{color:#8f98d6}
+@media (max-width:720px){.grid{grid-template-columns:1fr}}
